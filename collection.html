@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BROHUNT</title>
+    <link rel="icon" href="https://static.thenounproject.com/png/1688135-200.png">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--CSS-->
+
+    <link rel="stylesheet" href="stylesheet.css">
+
+
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!--Navbar-->
+    <nav class="navbar">
+        <h1>BROHUNT</h1>
+
+        <div class="navbar-link">
+            <p class="navbar-link"> <a href="index.html">Home</a></p>
+            <p class="navbar-link"> <a href="collection.html">Collections</a></p>
+            <p class="navbar-link"> <a href="contact.html">Contact</a></p>
+        </div>
+
+        <div class="nav-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!--side navbar-->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+
+
+        <div class="side-navbar-link">
+            <p class="side-navbar-link"> <a href="index.html">Home</a></p>
+            <p class="side-navbar-link"> <a href="collection.html">Collections</a></p>
+            <p class="side-navbar-link"> <a href="contact.html">Contact</a></p>
+        </div>
+
+    </div>
+
+    <!--Product-->
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"> </i>
+        </form>
+   
+
+
+        <div class="products" id="products">
+
+
+        <div class="products-box">
+            <img src="https://cdnd.lystit.com/photos/2012/04/29/theory-black-woven-shirt-black-product-1-2820451-411462490.jpeg" width="200" height="200" alt="">
+            <p>Black Shirts</p>
+        </div>
+
+            <div class="products-box">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.tRaB6phzH7GLCo8yCsbLrQHaJo&pid=Api&P=0&h=180" width="200" height="200"alt="">
+                <p> White Shirts</p>
+            </div>
+
+
+                <div class="products-box">
+                    <img src="https://assets.myntassets.com/h_200,w_200,c_fill,g_auto/h_1440,q_100,w_1080/v1/assets/images/19538068/2022/8/18/ddf3605a-c1bb-40f3-bfc8-52c38ec8b6521660766989407CODEbyLifestyleBlackSolidCottonShirts1.jpg" width="200" height="200" alt="">
+                    <p> Black Shirts</p>
+                </div>
+
+                <div class="products-box">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.gSjU4EhgbF6vCtR2SAG-IgHaJ4&pid=Api&P=0&h=180"width="200" height="200" alt="">
+                    <p> Cream Shirts</p>
+                </div>
+
+                <div class="products-box">
+                    <img src="https://cdn.shopify.com/s/files/1/0094/6326/7379/files/black_shirt_600x600.jpg?v=1655724728" width="200" height="200" alt="">
+                    <p>Black Shirts</p>
+                </div>
+
+                <div class="products-box">
+                    <img src="https://handcmediastorage.blob.core.windows.net/productimages/CF/CFPLX011-B40-139150-1400px-1820px.jpg" width="200" height="200" alt="">
+                    <p>Blue Shirts</p>
+                </div>
+
+                <div class="products-box">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.m1Bk39V9t85ZwAAyj-m0RAHaJR&pid=Api&P=0&h=180" width="200" height="200" alt="">
+                    <p> White Shirts</p>
+                </div>
+
+         </div>
+
+    </div>
+           
+
+
+            <!--footer-->
+
+            <div class="footer">
+
+                <div class="footer-container">
+                    <div class="footer-box-1">
+                        <h2 class="headingText">BROHUNT</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus quam blanditiis
+                            eligendi porro voluptatibus maiores at deleniti sit vel aliquam?</p>
+                        <div class="footer-icon-container">
+                            <i class=" fa-brands fa-instagram" style="color: #ffffff;"></i>
+                            <i class=" fa-brands fa-twitter" style="color: #ffffff;"></i>
+                            <i class=" fa-brands fa-facebook" style="color: #ffffff;"></i>
+                        </div>
+
+                    </div>
+
+                </div>
+                <p>@2024 BROHUNT</p>
+            </div>
+
+
+
+
+
+            <script src="collection.js"></script>
+</body>
+
+</html>
